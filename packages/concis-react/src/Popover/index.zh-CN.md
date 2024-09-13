@@ -43,6 +43,12 @@ toc: content
 
 <code src="./demos/index4.tsx"></code>
 
+## 自定义 Tooltip
+
+通过 `customTooltip` 属性提供自定义的 Tooltip 组件。
+
+<code src="./demos/index5.tsx"></code>
+
 ## API
 
 | Name            | Description                    | Type              | Default  |
@@ -57,3 +63,5 @@ toc: content
 | defaultShow     | 默认显示气泡卡片               | `boolean`         | `false`  |
 | closeDeps       | 气泡卡片关闭依赖项             | `any[]`           | `[]`     |
 | onVisibleChange | 卡片显示隐藏回调               | `Function`        | `--`     |
+| customTooltip   | 自定义 Tooltip 组件            | `ReactNode`       | `-`      |
+

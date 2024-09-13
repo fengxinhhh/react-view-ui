@@ -27,6 +27,7 @@ const Popover = forwardRef<PopoverRef, popoverProps>((props, ref) => {
     defaultShow = false,
     closeDeps,
     onVisibleChange,
+    customTooltip,
   } = props;
   const showBtnRef = useRef();
   const dialogRef = useRef();
@@ -140,7 +141,7 @@ const Popover = forwardRef<PopoverRef, popoverProps>((props, ref) => {
                 onClick={(e) => e.stopPropagation()}
                 ref={dialogRef as any}
               >
-                {content}
+              {customTooltip || content}
               </div>
             </React.Fragment>
           </CSSTransition>

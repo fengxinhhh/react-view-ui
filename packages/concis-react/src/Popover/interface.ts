@@ -49,6 +49,10 @@ interface popoverProps {
    * @description 卡片显示隐藏回调
    */
   onVisibleChange?: Function;
+  /**
+   * @description Custom tooltip as component
+   */
+  customTooltip?: ReactNode;
 }
 
 type alignStyle = {
