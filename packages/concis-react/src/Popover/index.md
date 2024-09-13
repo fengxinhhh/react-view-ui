@@ -44,6 +44,12 @@ Declare a separate `ref` through `useRef` and pass it to `Popover`, and call `re
 
 <code src="./demos/index4.tsx"></code>
 
+## Custom Tooltip
+
+Use `customTooltip` prop to provide a custom tooltip component.
+
+<code src="./demos/index5.tsx"></code>
+
 ## API
 
 | Name            | Description                     | Type              | Default  |
@@ -58,3 +64,5 @@ Declare a separate `ref` through `useRef` and pass it to `Popover`, and call `re
 | defaultShow     | Show bubble cards by default    | `boolean`         | `false`  |
 | closeDeps       | Bubble card close dependencies  | `any[]`           | `[]`     |
 | onVisibleChange | Card show hide callback         | `Function`        | `--`     |
+| customTooltip  | Custom tooltip component           | `ReactNode`             | `-`       |
+
