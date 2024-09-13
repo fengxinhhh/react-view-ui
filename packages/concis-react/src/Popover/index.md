@@ -64,5 +64,5 @@ Use `customTooltip` prop to provide a custom tooltip component.
 | defaultShow     | Show bubble cards by default    | `boolean`         | `false`  |
 | closeDeps       | Bubble card close dependencies  | `any[]`           | `[]`     |
 | onVisibleChange | Card show hide callback         | `Function`        | `--`     |
-| customTooltip  | Custom tooltip component           | `ReactNode`             | `-`       |
+| customTooltip  | Custom tooltip component         | `ReactNode`       | `-`      |
 

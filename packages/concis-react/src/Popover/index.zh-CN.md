@@ -63,5 +63,5 @@ toc: content
 | defaultShow     | 默认显示气泡卡片               | `boolean`         | `false`  |
 | closeDeps       | 气泡卡片关闭依赖项             | `any[]`           | `[]`     |
 | onVisibleChange | 卡片显示隐藏回调               | `Function`        | `--`     |
-| customTooltip  | 自定义 Tooltip 组件             | `ReactNode`       | `-`      |
+| customTooltip   | 自定义 Tooltip 组件            | `ReactNode`       | `-`      |
 
